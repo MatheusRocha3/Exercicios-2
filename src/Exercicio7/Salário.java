@@ -6,11 +6,11 @@ import java.util.Scanner;
 public class Salário {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        double bruto = 0.0;
-        double ImpostoDerenda = 0;
-        double sindicato = 0;
-        double inss = 0;
-        double salario = 0;
+        double bruto;
+        double ImpostoDerenda;
+        double sindicato;
+        double inss;
+        double salario;
         System.out.print("Digite o valor da sua hora trabalhada: ");
         double horas = input.nextDouble();
         System.out.println("Digite quantas horas você trabalha por mês: ");
