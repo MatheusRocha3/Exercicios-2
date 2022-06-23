@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class ConverterTemperatura {
 
     public static void main(String[] args) {
-        double c = 0;
-        double f = 0;
+        double c;
+        double f;
         Scanner input = new Scanner(System.in);
         DecimalFormat formatador = new DecimalFormat("#0,0");
         System.out.println("Conversão de temperatura");
